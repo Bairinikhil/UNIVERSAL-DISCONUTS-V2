@@ -1,0 +1,154 @@
+.sendMail{
+	position: absolute;
+	bottom: 50px;
+right: 20px;
+	/* left: 410px; */
+	background-color: white;
+	width: 60%;
+	height: 60%;
+	max-width: 500px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+
+}
+.sendMail-header{
+	
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #f6f8fc;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;	
+}
+form{
+	display: flex;
+	padding: 0 10px;
+	background-color: white;
+	
+	flex-direction: column;
+	
+}
+.To{
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid lightgrey;
+	background-color: white;
+	font-family: poppins;
+	
+	
+
+
+}
+.subject{
+	height: 40px;
+	border: none;
+	border-bottom:  1px solid lightgrey;
+	background-color: white;
+	font-family: poppins;
+	color:green;
+	
+	
+}
+.Matter{
+	height: 150px;
+	border: none;
+	background-color: white;
+	border: 1px solid red;
+	font-family: poppins;
+}
+.expiryDate{
+	height: 50px;
+	background-color: white;
+	border: none;
+	border-bottom: 1px solid lightgrey;
+
+}
+.sendMail-options{
+	display: flex;
+	align-items: center;
+
+	
+	padding: 20px 0px;
+	background-color: white;
+	
+
+}
+.sendMail-options .MuiSvgIcon-root{
+	display: flex;
+	padding: 0 8px;
+	font-size: 20px;
+	color: rgb(68, 71, 70);
+}
+.button{
+	display: flex;
+	height: 35px;
+	
+	align-items: center;
+	width: 100px;
+	border-radius: 30px;
+	background-color:white;
+	border: none;
+	z-index: 999;
+	cursor: pointer;
+	border: 1px solid black;
+	
+	
+}
+.button h2{
+	background-color: transparent;
+	color: black;
+	z-index: 999;
+	padding-right: 40px;
+	font-family: poppins;
+	padding-left: 10px;
+	/* position: absolute; */
+
+
+}
+
+hr{
+	height: 33px;
+	margin-left: 10px;
+	border-color: black;
+	
+	
+}
+/* .button p{
+	font-family: poppins;
+	font-size: 15px;
+	padding: 0 1px;
+	color: white;
+
+} */
+.button .MuiSvgIcon-root{
+	color: white;
+
+}
+.bin .MuiSvgIcon-root{
+	padding-left: 60px !important;
+	background-color: white;
+}
+
+.sendMail-header h2{
+	font-family: poppins;
+	padding-right: 250px;
+	font-weight: 140;
+	font-size: 15px;
+	color: black;
+
+}
+.sendMail-header .MuiSvgIcon-root{
+	font-size: 15px;
+	padding-left: 20px;
+	color: black;
+}
+
+::placeholder{
+	font-family: poppins;
+	font-size: 15px;
+	color: lightgray;
+}

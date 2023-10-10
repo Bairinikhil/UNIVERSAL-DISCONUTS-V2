@@ -1,0 +1,224 @@
+p{
+	font-weight: 200;
+	color: grey;
+}
+h5{
+	font-size: 15px;
+	font-weight: 10;
+	
+}
+h4{
+	font-size: 15px;
+	font-weight: 500 !important;
+	
+	/* display: flex; */
+	/* align-items: center; */
+}
+.emailRow{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	height: 120px;
+	border: 2px solid black;
+	/* border-bottom: 1px solid lightgrey; */
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 10px;
+	margin-bottom: 8px;
+	
+	z-index: 999;
+}
+/* .Morestuff{
+	color: grey;
+	justify-content: flex-start;
+	vertical-align: middle;
+
+} */
+.emailRow:hover{
+
+	border: 2px solid red;
+	box-shadow: 0px 4px 4px -2px lightgray;
+
+}
+
+.emailRow-options{
+	display: flex;
+	/* padding: 0 18px; */
+	border-bottom: 1px solid black;
+	width: 102%;
+	background-color: white;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.emailRow-options h4{
+	font-size: 14px;
+}
+.emailRow-options h5{
+	font-size: 12px;
+	background-color: white;
+}
+.emailRow-options span{
+	color: grey;
+	background-color: white;
+}
+.emailRow-options .MuiSvgIcon-root{
+	padding: 0 16px;
+}
+
+.emailRow-message{
+	display: flex;
+	flex: 0.9;
+	align-items: center;
+	font-size: 13px;
+
+}
+.emailRow-message h4{
+	width: 400px;
+	font-size: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 6px;
+	padding-right: 5px;	
+}
+.product{
+	border-right: 1px solid black;
+	width: 172px;
+	background-color: white;
+}
+.product h4{
+	border-bottom: 1px solid black;	
+}
+.product h3{
+	display: contents;
+	font-family: poppins;
+	font-size: 14px;
+}
+.emailRow-title{
+	font-weight: 10;
+	display: flex;
+
+	/* flex: 0.3; */
+	height: 120px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	background-color: white;
+}
+.emailRow-title h5{
+	font-size: 13px;
+	background-color: white;
+	/* width: 110px; */
+
+}
+.emailRow-price {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	
+	width: 150px;
+	border-right:1px solid black;
+	
+}
+.price{
+	justify-content: center;
+	background-color: white;
+	
+	
+}
+.price h4{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+.price h3{
+	display: contents;
+	font-size: 18px;
+	
+	color: green;
+	font-family: poppins;
+
+}
+.MRP{
+	display: flex;
+	align-items: center;
+	background-color: white;
+}
+.MRP h3{
+	display: flex;
+	display: contents;
+	font-size: 15px;
+}
+.MRP span{
+	text-decoration: line-through;
+	align-items: center;
+	color: red;
+	background-color: white;
+}
+
+.emailRow-Location{
+	border-right: 1px solid black;
+	width: 240px;
+	background-color: white;
+	
+}
+.emailRow-Location h4{
+	border-bottom: 1px solid black;
+	
+}
+.emailRow-Location h3{
+	overflow-y: scroll;
+	
+	display: contents;
+	font-size: 14px;
+	font-family: poppins;
+}
+.expiry {
+	width: 150px;
+	background-color: white;
+}
+.expiry h4{
+	
+	border-bottom: 1px solid black;
+}
+.expiry h3{
+	
+	
+	font-size: 15px;
+	font-family: poppins;
+	
+	display: contents;
+}
+
+.emailRow-time{
+	display: flex;
+
+	padding-right: 15px;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: white;
+	width: 80%;
+
+}
+.emailRow-time p{
+	background-color: white;
+	padding-left: 10px;
+	align-items: center;
+}
+
+
+
+.emailRow-description{
+	font-weight: 400;
+	color: grey;
+}
+.emailRow-options .MuiSvgIcon-root{
+	font-size: 19px;
+	color: lightgrey;
+}
+.emailRow-message h4{
+	font-size: 14px;
+font-weight: 200;
+color: black;
+}

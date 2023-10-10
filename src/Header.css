@@ -1,0 +1,118 @@
+.MuiSvgIcon-root{
+background-color: transparent;
+}
+
+
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+padding-top: 5px;
+background-color: white;
+
+}
+
+.Header-Left{
+	display: flex;
+	
+	align-items:center;
+		
+	
+}
+.baricon.MuiSvgIcon-root{
+	position: absolute;
+	left: 2%;
+	color: black;
+}
+.Header-Left img{
+	height: 40px;
+	
+	position: absolute;
+	left: 5%;
+	top: 1.5%;
+	background-color: transparent;
+	
+	
+	
+	/* background-color:#f6f8fc; */
+
+}
+
+.Header-middle{
+	display: flex;
+	flex: 0.6;
+	align-items: center;
+	background-color:white;
+	/* background-color: rgb(224, 252, 250); */
+	padding: 3px;
+	border-radius: 10px;
+	margin-right: 20px;
+	margin-left: auto;
+
+
+}
+.Header-middle img {
+	display: flex;
+	padding-left: 10px;
+	position: relative;
+	left: 2%;
+	background-color: transparent;
+
+	height: 45px;
+	padding-right: 15px;
+}
+
+.Header-middle h4 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 26px;
+	color: black;
+	font-weight: 100;
+	display: flex;
+	align-items: center;
+}
+.Header-middle input{
+	border: none;
+	width: 150%;
+	height: 10px;
+	padding: 10px;
+	outline-width: 0;
+	font-size: medium;
+	background-color: transparent;
+
+}
+.Header-Right{
+	object-fit: cover;
+	display: flex;
+	
+	align-items: center;
+	padding-right: 10px;
+	/* border: 1px solid red; */
+	background-color: white;
+
+	
+}
+
+.Header-Right button {
+	margin-right: 10px;
+	height: 30px;
+	border: none;
+	background-color: white;
+	border-radius: 8px;
+	font-family: poppins;
+}
+.Header-Right button:hover {
+	
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.Header-Right .MuiSvgIcon-root{
+	display: flex;
+	margin-right: 15px;
+
+}
+.MuiSvgIcon-root:hover{
+	cursor: pointer;
+}

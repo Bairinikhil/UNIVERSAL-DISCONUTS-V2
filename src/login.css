@@ -1,0 +1,136 @@
+	
+/* .sendMail {
+	position: absolute;
+	bottom: -50px;
+	right: 50px;
+	background-color: white;
+	width: 60%;
+	height: 80%;
+	max-width: 500px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid lightgrey;
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+
+} */
+
+.Login{		
+	
+	/* height: 500px;
+	width: 450px; */
+		/* top: 10%;		
+		margin-left: 430px;		
+			background-color: white;			
+			max-width: 500px;
+			border-radius: 10px;			 */
+			/* border: 1px solid black;			 */
+}
+.login-header{
+	display: flex;
+
+	
+}
+.login-header span{
+	color: blue;
+	cursor: pointer;
+}
+.login-header button{	
+
+margin-left: 43%;
+margin-top: 22%;
+
+border: 1px solid black;
+border-radius: 5px;
+height: 30px;
+width: 83px;
+align-content: center;
+font-family: poppins;
+align-items: center;
+font-weight: 200;
+}
+.login-header:hover button{
+	font-weight: bold;
+	border: 2px solid black;
+	
+}
+img{
+	height: 200px;
+	position: absolute;
+	left: 28%;
+	top: 5%;
+	background-color: white;
+}
+h3{
+	font-family: "Google Sans",
+			"Noto Sans Myanmar UI",
+			arial,
+			sans-serif;
+	position: absolute;
+	font-size: 25px;
+	left: 25%;
+	top: 38%;
+	font-weight: 100;
+	background-color: white;
+}
+.options{
+	display: flex;	
+	cursor: pointer;
+	position: absolute;
+	height: 10%;
+	align-items: center;
+	margin-top: 200px;
+	left: 10%;
+	width: 80%;
+	background-color: transparent;
+	
+}
+.options2 {
+	display: flex;
+	cursor: pointer;
+	position: absolute;
+	align-items: center;
+	margin-top: 250px;
+	height: 10%;
+	left: 10%;
+	width: 80%;
+	z-index: 3;
+	box-sizing:border-box;
+	/* color: grey; */
+
+		border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	background-color: transparent;
+}
+h2{
+	font-family: "Google Sans",
+			"Noto Sans Myanmar UI",
+			arial,
+			sans-serif;
+	font-size: 15px;
+
+	padding: 0 20px;
+	font-weight: 100;
+	color: grey;
+	background-color: transparent;
+}
+.MuiSvgIcon-root{
+	color: gray;
+	
+}
+.options:hover{
+	background-color:lightgrey;
+	
+}
+.options2:hover{
+	background-color: lightgrey;
+}
+.options2:hover h2,
+.options2:hover .MuiSvgIcon-root {
+	background-color: lightgrey;
+}
+.options:hover h2,
+.options:hover .MuiSvgIcon-root {
+	background-color: lightgrey;
+}

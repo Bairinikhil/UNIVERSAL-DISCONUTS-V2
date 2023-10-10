@@ -1,0 +1,118 @@
+.emailList {
+	flex: 1.4;
+	overflow: scroll;
+	padding-top: 10px;
+	padding-right: 25px;
+	overflow-y: scroll;
+	background-color: white;
+	
+}
+.emailList::-webkit-scrollbar{
+	display: visible;
+}
+.emailList{
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.emailList-settings .MuiSvgIcon-root{
+	background-color: none;
+	
+
+}
+.emailList-settings{
+	display: flex;
+	flex-direction: column;
+	/* position: sticky; */
+	top: 0;
+	height: 150px;
+	/* align-items: center; */
+	/* justify-content:space-between; */
+	/* border: 1px solid red; */
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	/* border-bottom: 1px solid whitesmoke; */
+	/* when i changed the z-index the underlyin div has apperead on screen but when it is on the dic 
+	in my case the senMail half part of it is under the email-setting div so when usinfg the z-index the 
+	underlying stuff will be hidden but the rest of the part is displayed */
+	/* z-index: 999; */
+
+	/* padding-right: 10px; */
+	background-color: white;
+	border: 1px solid green;
+}
+.emailList-settings h4{
+	display: flex;
+	color: blue;
+
+}
+.emailList-settings h3{
+	display: flex;
+	position: relative;
+	left: 1%;
+	font-family: poppins;
+	font-size: 18px;
+	line-height: 30px;
+	top: 1%;
+	/* border: 1px solid green; */
+	
+	color: black;
+}
+.emailList-settingLeft{
+	padding: 15px;
+	display: flex;
+	background-color: white;
+}
+.emailList-settingLeft .MuiSvgIcon-root{
+	padding: 0 6px;
+}
+/* input{
+	height: 30px;
+	position: absolute;
+	top: 10%;
+} */
+.emailList-settingRight{
+	background-color: white;
+	padding: 10px;
+}
+.emailList-settingRight .MuiSvgIcon-root{
+	padding: 0 8px;
+}
+.emailList-settings .MuiSvgIcon-root{
+	font-size:19px;
+	color: black;
+	background-color: white;
+
+}
+.emialList-sections .MuiSvgIcon-root{
+	font-size: 20px;	
+}
+
+
+.emialList-sections{
+/* border: 1px solid green; */
+height: 35px;
+		position: sticky;
+		top: 0;
+		display: flex;
+	
+		/* border-bottom: 1px solid whitesmoke; */
+		/* z-index: 999; */
+		background-color: white;
+}
+.emialList-sections h4{
+	margin-left: 25%;
+		margin-right: auto;
+		font-size: 25px;
+}
+.emailList-List{
+	padding: 10px;
+	width: 67.3%;
+	margin-left:80px;
+	
+	margin-right: auto;
+	background-color:white;
+	margin-bottom: 50px;
+	
+}
+
